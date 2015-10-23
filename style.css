@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+#gamepage{
+	display: none;
+}
+
+#startpage{
+	display: block;
+}
+
+h1 {text-align:center;}
+p {text-align: center;}
+#radios {text-align: center;}

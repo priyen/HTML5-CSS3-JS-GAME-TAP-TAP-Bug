@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>a2</title>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="s.js"></script>
+<body onload="loaded()">
+	<div id="gamepage">
+		<canvas id="viewport" height="650" width="400" style="border:1px solid #000000;">Your browser does not support canvas</canvas>
+	</div>
+	<div id="startpage">
+		<h1>Tap Tap Bug</h1>
+		<p> Select a Level and press start to play. Bugs move faster in level 2, and click on bugs to kill them. Protect the food.</p>
+		<div id="radios">
+			<input type="radio" name="level" value="1" checked="checked">Level 1
+			<input type="radio" name="level" value="2">Level 2
+		</div>
+		<p id="hstext">High Scores<p>
+		<button id="startButton" onclick="clickedStartButton()" type="button">Start Game</button>
+	</div>
+</body>
+</html>
